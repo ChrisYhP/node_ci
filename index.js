@@ -19,7 +19,7 @@ mongoose.connection.on('connected', () => {
 const app = express();
 let router = express.Router();
 
-
+console.log('test ci')
 app.use(
   session({
     secret: 'demo_test',
